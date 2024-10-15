@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="site/css/main.css">
 <div class="header">
   <button class="login-btn">Login</button>
 </div>
