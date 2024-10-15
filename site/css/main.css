@@ -1,6 +1,30 @@
 /**
  * Tabs
  */
+/* Style for the header container */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #666699; /* Light background color for the header */
+  position: relative;
+}
+
+/* Style for the login button */
+.login-btn {
+  padding: 15px 30px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
 .tabs {
 	display: flex;
 	flex-wrap: wrap; // make sure it wraps
@@ -52,11 +76,11 @@ body {
   background: #666699;
   min-height: 100vh;
 	box-sizing: border-box;
-	padding-top: 10vh;
+	padding-top: 1vh;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
   line-height: 1.5;
-  max-width: 60rem;
+  max-width: 100rem;
   margin: 0 auto;
   font-size: 100%;
 }
