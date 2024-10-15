@@ -1,3 +1,0 @@
-# HotelCalifornia
-
-Test :)
