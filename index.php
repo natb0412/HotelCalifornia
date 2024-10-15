@@ -8,9 +8,9 @@
   <div class="tab">
     <h2>Registrering</h2>
     <form action="/registrering_page.php" target="_blank">
-      <p><input class="user_name" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="user_name" type="text" placeholder="Navn" required name="Name"></p>
       <p><input class="user_email" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="user_message" type="text" placeholder="Message" required name="Message"></p>
+      <p><input class="user_message" type="text" placeholder="Melding" required name="Message"></p>
       <p><button class="user_submit" type="submit">SEND MELDING</button></p>
     </form>
   </div>
