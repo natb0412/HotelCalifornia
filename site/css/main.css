@@ -1,3 +1,49 @@
+.registration-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.registration-form input, 
+.registration-form select, 
+.registration-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.registration-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #0056b3;
+}
+
+
+
 /**
  * Tabs
  */
@@ -27,10 +73,10 @@
 
 .tabs {
 	display: flex;
-	flex-wrap: wrap; // make sure it wraps
+	flex-wrap: wrap; /* make sure it wraps*/
 }
 .tabs label {
-	order: 1; // Put the labels first
+	order: 1; /* Put the labels first */
 	display: block;
 	padding: 1rem 2rem;
 	margin-right: 0.2rem;
@@ -40,7 +86,7 @@
   transition: background ease 0.2s;
 }
 .tabs .tab {
-  order: 99; // Put the tabs last
+  order: 99; /* Put the tabs last */
   flex-grow: 1;
 	width: 100%;
 	display: none;
