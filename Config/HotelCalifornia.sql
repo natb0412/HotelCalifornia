@@ -1,8 +1,3 @@
-CREATE DATABASE HotelCalifornia;
-
-Use HotelCalifornia;
-
--- Brukere tabell
 CREATE TABLE Brukere (
     id INT PRIMARY KEY AUTO_INCREMENT,
     brukernavn VARCHAR(255) NOT NULL,

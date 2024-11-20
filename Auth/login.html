@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <link rel="stylesheet" href="../CSS/main1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logg inn</title>
+<body>
+    <div class="login-container">
+        <h2>Logg inn</h2>
+        <form action="login.php" method="POST">
+            <label for="username">Brukernavn:</label>
+            <input type="text" id="username" name="username" required autocomplete="username">
+            
+            <label for="password">Passord:</label>
+            <input type="password" id="password" name="password" required autocomplete="current-password">
+            
+            <button type="submit">Logg inn</button>
+        </form>
+        <div id="error-message" class="error-message"></div>
+    </div>
+
+    <script>
+        // Enkel klientside validering
+        document.querySelector('form').addEventListener('submit', function(e) {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            var errorMessage = document.getElementById('error-message');
+
+            if (username.trim() === '' || password.trim() === '') {
+                e.preventDefault();
+                errorMessage.textContent = 'Vennligst fyll ut både brukernavn og passord.';
+            } else {
+                errorMessage.textContent = '';
+            }
+        });
+    </script>
+</body>
+</html>
